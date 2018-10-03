@@ -4,6 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity">\
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/addDish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Dish"/>
+        <Button
+            android:id="@+id/loadAllDish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load All Dish"/>
+        <Button
+            android:id="@+id/loadDish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load Dish"/>
+    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
